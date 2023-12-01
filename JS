@@ -1,3 +1,1 @@
-chrome.runtime.getBackgroundPage(function (p) {
-    p.chrome.management.setEnabled("PASTE EXTENSION ID TO DISABLE HERE", false);
-});
+localStorage.cluster = "AVOID_OS, " + (Date.now() * (Math.random()))
